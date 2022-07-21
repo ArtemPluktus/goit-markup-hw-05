@@ -625,12 +625,12 @@ address {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.project-animation {
+.project-thumb {
   position: relative;
   overflow: hidden;
 }
 
-.project-animation-text {
+.project-thumb-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -649,8 +649,8 @@ address {
   transform: translateY(100%);
 }
 
-.project-link:hover .project-animation-text,
-.project-link:focus .project-animation-text {
+.project-link:hover .project-thumb-text,
+.project-link:focus .project-thumb-text {
   opacity: 1;
   transform: translateY(0);
 }
