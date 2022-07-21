@@ -239,15 +239,12 @@ header.header {
   gap: 50px;
 }
 
-.header-contact {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
 .header-contact-link {
   display: flex;
   align-items: center;
   gap: 10px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   transition-property: color;
   transition-duration: var(--duration);
