@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
-<body>
+<body data-page>
   <!-- Header section -->
   <header class="header">
     <div class="container header-container">
@@ -59,7 +59,7 @@
     <section class="hero">
       <div class="container">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="hero-btn btn">Заказать услугу</button>
+        <button type="button" class="hero-btn btn" data-modal-open>Заказать услугу</button>
       </div>
     </section>
     <!-- About section -->
@@ -122,14 +122,17 @@
           <li class="work-item card-item">
             <img src="./images/work/box1.jpg" alt="Написание программного кода" width="370" height="294"
               class="work-img" />
+            <p class="work-uppertitle">Десктопные приложения</p>
           </li>
           <li class="work-item card-item">
             <img src="./images/work/box2.jpg" alt="Разработка мобильных приложений" width="370" height="294"
               class="work-img" />
+            <p class="work-uppertitle">Мобильные приложения</p>
           </li>
           <li class="work-item card-item">
             <img src="./images/work/box3.jpg" alt="дизайнерский подбор цветового решения" width="370" height="294"
               class="work-img" />
+            <p class="work-uppertitle">Дизайнерские решения</p>
           </li>
         </ul>
       </div>
@@ -416,6 +419,19 @@
       </div>
     </div>
   </footer>
+  <!-- Modal window -->
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="modal-btn" data-modal-close>
+        <svg width="11" height="11" class="modal-btn-icon">
+          <use href="./images/icons.svg#xmark"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
