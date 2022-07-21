@@ -652,7 +652,7 @@ address {
 .project-link:hover .project-animation-text,
 .project-link:focus .project-animation-text {
   opacity: 1;
-  transform: translateX(0);
+  transform: translateY(0);
 }
 
 /* Modal window */
